@@ -560,13 +560,13 @@ output "nginx_dns_lb" {
 After that, configure the variables and credentials in the terraform.tfvars file:
 ```
 # Application Definition
-app_name = "kopicloud" # Do NOT enter any spaces
+app_name = "yourapp" # Do NOT enter any spaces
 app_environment = "test" # Dev, Test, Prod, etc
 #AWS authentication variables
 aws_access_key = "your-aws-access-key"
 aws_secret_key = "your-aws-secret-key"
-aws_key_pair_name = "kopicloud-key-pair"
-aws_key_pair_file = "kopicloud-key-pair.pem"
+aws_key_pair_name = "yourapp-key-pair"
+aws_key_pair_file = "yourapp-key-pair.pem"
 aws_region = "eu-west-2"
 # Application access
 app_sources_cidr = ["0.0.0.0/0"] # Specify a list of IPv4 IPs/CIDRs which can access app load balancers
@@ -581,7 +581,7 @@ Open your AWS Console and go to the ECS service. On the left side, under the Ama
 How it works from [Amazon EC2 key pairs and Linux instances]([https://github.com/nholuongut/Create-an-IAM-account-and-configure-Terraform-to-use-AWS-static-credentials](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html)) for more information.<br>
 # Run Terraform
 ## 1. Run the command terraform init from the command line, in the same folder where your code is located.
-## 2. Then run the command terraform apply from the command line to start building the infrastructure.
+## 2. Then run the command terraform apply from the command line to start building the infrastructure.<br>
 
-
-
+<br><br>
+### The End
