@@ -585,13 +585,11 @@ aws_region = "eu-west-2"
 app_sources_cidr = ["0.0.0.0/0"] # Specify a list of IPv4 IPs/CIDRs which can access app load balancers
 admin_sources_cidr = ["0.0.0.0/0"] # Specify a list of IPv4 IPs/CIDRs which can admin instances
 ```
-How to deploy the cluster in AWS.<br>
-# 1.Create an IAM user and update the file terraform.tfvars with the credentials. To create an IAM user follow step 1 of the link below.<br>
-How it works from [Create-an-IAM-account-and-configure-Terraform-to-use-AWS-static-credentials](https://github.com/nholuongut/Create-an-IAM-account-and-configure-Terraform-to-use-AWS-static-credentials) for more information.<br>
-# 2. Update the Amazon ECS ARN and resource ID settings.<br>
+# How to deploy the cluster in AWS.<br>
+## 1.Create an IAM user and update the file terraform.tfvars with the credentials. To create an IAM user follow step 1 of the link below.<br>
+How it works from [Amazon EC2 key pairs and Linux instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html) for more information.<br>
+## 2. Update the Amazon ECS ARN and resource ID settings.<br>
 Open your AWS Console and go to the ECS service. On the left side, under the Amazon ECS, Account Settings, check the Container instance, Service and Task override checkbox.
-# 3. Generate and download an EC2 Key pair (.pem file). Instructions are below.<br>
-How it works from [Amazon EC2 key pairs and Linux instances]([https://github.com/nholuongut/Create-an-IAM-account-and-configure-Terraform-to-use-AWS-static-credentials](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html)) for more information.<br>
-# Run Terraform
+## Run Terraform
 1. Run the command ```terraform init``` from the command line, in the same folder where your code is located.
 2. Then run the command ```terraform apply``` from the command line to start building the infrastructure.
