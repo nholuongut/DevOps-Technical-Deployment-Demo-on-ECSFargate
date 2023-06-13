@@ -14,7 +14,7 @@ How it works from [AWS Fargatet](https://aws.amazon.com/fargate/) for more infor
 ```
 # Infrastructure	 architecture	 diagram	
 The following diagram illustrates the architecture for the solution:
-![Alt Text](Deployment Strategy Diagram.png?raw=true  "Title")
+<img width="907" alt="Deployment Strategy Diagram" src="https://github.com/nholuongut/DevOps-Technical-Deployment-Demo-on-ECSFargate/assets/58627821/37711ce6-5b26-4295-ab3b-6db807657247">
 
 
 ## Step by step to deployment!
