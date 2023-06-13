@@ -4,6 +4,19 @@
 The benefit of ECS Fargate enables containers to run without needing to manage servers or clusters. This easy-to-use, low-maintenance option can be exciting, especially for SMB companies concerned about the complexity of the K8S.<br>
 How it works from [AWS Fargatet](https://aws.amazon.com/fargate/) for more information.<br>
 
+# Prerequisites
+```
+# AWS Account
+# AWS CLI
+# Terraform
+# Nginx
+
+```
+# Infrastructure	 architecture	 diagram	
+The following diagram illustrates the architecture for the solution:
+![Alt Text](Deployment Strategy Diagram.png?raw=true  "Title")
+
+
 ## Step by step to deployment!
 
 The first step is to create the file for the Terraform provider. This file is used to initialize the AWS provider. Create a file called provider.tf and add the following code to the file:
@@ -580,8 +593,5 @@ Open your AWS Console and go to the ECS service. On the left side, under the Ama
 # 3. Generate and download an EC2 Key pair (.pem file). Instructions are below.<br>
 How it works from [Amazon EC2 key pairs and Linux instances]([https://github.com/nholuongut/Create-an-IAM-account-and-configure-Terraform-to-use-AWS-static-credentials](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html)) for more information.<br>
 # Run Terraform
-## 1. Run the command terraform init from the command line, in the same folder where your code is located.
-## 2. Then run the command terraform apply from the command line to start building the infrastructure.<br>
-
-<br><br>
-### The End
+## 1. Run the command ```terraform init``` from the command line, in the same folder where your code is located.
+## 2. Then run the command ```terraform apply``` from the command line to start building the infrastructure.
