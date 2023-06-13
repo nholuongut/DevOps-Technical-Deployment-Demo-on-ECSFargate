@@ -593,5 +593,5 @@ Open your AWS Console and go to the ECS service. On the left side, under the Ama
 # 3. Generate and download an EC2 Key pair (.pem file). Instructions are below.<br>
 How it works from [Amazon EC2 key pairs and Linux instances]([https://github.com/nholuongut/Create-an-IAM-account-and-configure-Terraform-to-use-AWS-static-credentials](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html)) for more information.<br>
 # Run Terraform
-## 1. Run the command ```terraform init``` from the command line, in the same folder where your code is located.
-## 2. Then run the command ```terraform apply``` from the command line to start building the infrastructure.
+1. Run the command ```terraform init``` from the command line, in the same folder where your code is located.
+2. Then run the command ```terraform apply``` from the command line to start building the infrastructure.
