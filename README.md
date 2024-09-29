@@ -1,5 +1,9 @@
-# DevOps-Technical-Deployment-Demo-on-ECSFargate.<br>
-## In the vi of this lab, I use aws ECS Fargate service as Kubernetes (K8S) and deploy the entire ECS Fargate container service using Terraform, I will create the entire project, including the components. network portion, ECS Cluster, load balancer, and Fargate container scope running Nginx.<br>
+# DevOps Technical Deployment Demo on ECS Fargate <br>
+# Roadmaps are now interactive, you can click the nodes to read more about the topics.
+
+### [View all Roadmaps](https://github.com/nholuongut/all-roadmaps) &nbsp;&middot;&nbsp; [Best Practices](https://github.com/nholuongut/all-roadmaps/blob/main/public/best-practices/) &nbsp;&middot;&nbsp; [Questions](https://www.linkedin.com/in/nholuong/)
+
+![](https://i.imgur.com/waxVImv.png)
 
 The benefit of ECS Fargate enables containers to run without needing to manage servers or clusters. This easy-to-use, low-maintenance option can be exciting, especially for SMB companies concerned about the complexity of the K8S.<br>
 How it works from [AWS Fargatet](https://aws.amazon.com/fargate/) for more information.<br>
@@ -593,3 +597,18 @@ Open your AWS Console and go to the ECS service. On the left side, under the Ama
 ## Run Terraform
 1. Run the command ```terraform init``` from the command line, in the same folder where your code is located.
 2. Then run the command ```terraform apply``` from the command line to start building the infrastructure.
+
+I'm are always open to your feedback.  Please contact as bellow information:
+### [Contact ]
+* [Name: nho Luong]
+* [Skype](luongutnho_skype)
+* [Github](https://github.com/nholuongut/)
+* [Linkedin](https://www.linkedin.com/in/nholuong/)
+* [Email Address](luongutnho@hotmail.com)
+
+![](https://i.imgur.com/waxVImv.png)
+![](bitfield.png)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nholuong)
+
+# License
+* Nho Luong (c). All Rights Reserved.
